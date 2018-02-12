@@ -3,6 +3,33 @@
     padding: 0;
 }
 
+body {
+   background: #EAEAEA;
+    font-family: 'Raleway', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+   
+}
+
+a {
+    transition: .5s;
+    text-decoration: none;
+    color: #474744;
+}
+
+a:hover {
+    transition: .5s;
+    color: #FF5722;
+}
+
+
 li {
-    style-list: none;
+    list-style: none;
 }
